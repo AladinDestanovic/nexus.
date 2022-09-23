@@ -170,7 +170,14 @@ height: 100vh;
 display: flex;
 align-items: center;
 }
-
+ .ttext {
+    color: #222;
+    line-height: 45px;
+    font-size: 36px;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
 
 
 
