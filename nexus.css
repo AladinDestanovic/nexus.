@@ -6,7 +6,8 @@
     position: sticky;
     top: 0%;
         color: white;
-        background-color:#17a2b8;
+        background: #3bacf0;
+
     padding: 10px 120px;
     display: flex;
     flex-direction: row;
@@ -51,7 +52,8 @@ color: black;
     justify-content: center;
         padding: 0 120px;
 height: 90vh;
-background-color: #17a2b8;
+background: #3bacf0;
+
     }
     .roww {
 display: flex;
@@ -242,6 +244,7 @@ padding-right: 80px;
 }
            
 .made_life_area {
+    padding: 0 120px;
     background: #edf6ff;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -314,8 +317,124 @@ border: 1px solid black;
         height: auto;
         display: inline;}
 
+.feed-back {
+display: flex;
+flex-direction: column;
+padding: 120px ;
+padding-left: 120px;
+padding-right: 120px;
+
+}
+
+.paddi {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.roow {
+    display: flex;
+    flex-direction: row;
+
+}
+.feed 
+    {
+        text-align: center;
+        margin-bottom: 75px;
+    }
+.prof {
+    margin-right: 15px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.h4pro {
+    margin-top: 10px;
+    
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    font-size: 20px;}
+
+    
+.feed-block {
+display: block;
+}
+.feed-block:hover {
+    color: #17a2b8;
+}
 
 
+
+
+
+
+
+
+
+
+/*
+
+.follow-me {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+*/
+.free-demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 120px;
+   text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #3bacf0;
+
+   align-items: center;
+}
+.h1-demo {
+    
+
+    color: #fff;
+    font-size: 36px;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.p-demo {
+    color: #fff;
+    margin-bottom: 35px;
+}
+.end {
+    display: flex;
+   flex-direction: row;
+    padding: 0 120px;
+   
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: black;
+  
+}
+.end-h3 
+    {
+       
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Heebo",sans-serif;
+        
+    }
+.par-end {
+    font-size: 14px;
+    color: #777;
+    margin-top: 35px;
+}
+.oo {
+margin-left: 9px;
+}
+.inputt {
+    height: 40px;
+    width: 80%;
+    margin-bottom: 35px;
+}
 
 
 
@@ -355,6 +474,7 @@ color: white;
 @media (max-width:992px)
 
 {
+    
     .area-row {
         display: flex;
         flex-direction: column;
