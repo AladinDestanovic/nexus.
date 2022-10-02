@@ -30,9 +30,10 @@ font-size: 12px;
 .navi:hover {
     color: white;
 }
+
 .linkon a{
     text-decoration: none;
-    background-color: rgb(58, 148, 178);
+    background-color: rgb(255,255,255,0.1);
     color: white;
     display: block;
     font-size: 15px;
@@ -45,7 +46,154 @@ background-color: white;
 color: black;
 
 }
-
+.nav-list {
+    margin: 0;
+}
+.navv-bar {
+    top: 0;
+    position: sticky;
+    font-family: sans-serif;
+    background-color: #3bacf0 ;
+    color: white;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    }
+    .logo {
+    
+    font-size: 25px;
+    }
+    .navv-bar ul {
+    list-style: none;
+    display: flex;
+    }
+    .navv-bar ul li {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    padding: 0px 30px;
+    }
+    .navv-bar ul li a {
+    
+    color: white;
+    font: 20px;
+    text-decoration: none;
+    }
+    .dropdown-blog {
+    display: none;
+    }
+    .navv-bar ul li:hover .dropdown-blog {
+    color: black;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(83, 67, 67);
+    }
+    .dropdown-blog ul {
+    color: black;
+    display: block;
+    margin: 10px;
+    }
+    .dropdown-blog ul li {
+    width: 150px;
+    padding: 0px;
+    }
+    .linkon a{
+    text-decoration: none;
+    background-color: rgb(255,255,255,0.1);
+    color: white;
+    display: block;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px 35px;
+    font-size: small;}
+    .linkon a:hover {
+    background-color: white;
+    color: black;
+    
+    }
+    .navi {
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    }
+    
+    .dropdownn-blog {
+        display: none;
+        }
+        .lin1 ul li:hover .dropdownn-blog {
+        color: black;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: rgb(83, 67, 67);
+        }
+        .dropdownn-blog ul {
+        color: black;
+        display: block;
+        margin: 10px;
+        }
+        .dropdownn-blog ul li {
+        width: 150px;
+        padding: 0px;
+        }
+    
+    .lin1 {
+        margin-right: 30px;
+        display: none ;
+    }
+    .linn {
+        height: 4px;
+        width: 30px;
+        background-color: white;
+        margin: 4px;
+        
+    }
+    .lin1 ol  {
+    left: 0%;
+    top: 100%;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    }
+    .lin1 ol a {
+    text-decoration: none;
+    color: white;
+    }
+    @media (max-width:992px){
+    .navv-bar {
+    
+    background-color: black;
+    
+    }
+    .navv-bar ul li{ 
+        display: none;
+    }
+    
+    .linkon {
+    display: none;
+    }
+    .lin1 {
+    display: block;
+    }
+    .linn {
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    margin: 4px;
+    
+    }
+    }
 .containerr {
     display: flex;
     flex-direction: column;
@@ -85,7 +233,7 @@ margin-bottom: 25px;
     width: 100%;}
     .linkone a {  
         text-decoration: none;
-        background-color: rgb(58, 148, 178);
+        background-color: rgb(255,255,255,0.1);
         color: white;
         display: block;
         font-size: 15px;
@@ -115,6 +263,7 @@ margin-bottom: 25px;
 background-color: rgb(58, 148, 178);
 color: white;
     }
+  
     .second-containerr {
         padding: 0 120px;
         font-family: sans-serif;
@@ -286,7 +435,7 @@ background-color: #777;
 }
 .area-link a {
     text-align: center;
-        background-color: #17a2b8;
+    background-color: #3bacf0;
         color:white;
         text-decoration: none;
        
@@ -387,7 +536,7 @@ display: block;
 }
 .f-links a:hover {
 color: white;
-background-color: #17a2b8;
+background-color: #3bacf0;
 
 }
 
@@ -546,15 +695,33 @@ display: block;
 padding: 0 10px;
 }
 
-.smt .price-header:hover {
+.smt:hover .price-footer  {
     display: block;
-    background-color: #17a2b8;
+    background-color: #3bacf0;
+    color: white;
+}
+.smt:hover .price-header {
+background-color: #3bacf0;
+color: white;
+
+}
+.smt:hover .get {
+background-color: white;
+color: #04091e;
+}
+.smt-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .price-con {
 padding: 120px;
 display: flex;
 flex-direction: column;
 align-items: center;
+}
+.smt:hover .span-pr {
+    color: white;
 }
 .price-header {
     border-top-left-radius: 5px;
@@ -577,8 +744,10 @@ text-align: center;
     margin-bottom: 15px;
 }
   .price-footer {
+    border-radius: 10px;
+    align-self: center;
+    width: 70%;
     text-align: center;
-margin: 0 4px 40px 3.9px;
 padding: 35px 0 40px;
 
   }  
@@ -781,7 +950,7 @@ padding-bottom: 20px;
     padding: 0 15px;
 }
 .blog-dit {
-padding-top: 20px;
+padding-top: 0px;
 
 }
 .bl-h2 {font-size: 24px;
@@ -936,6 +1105,9 @@ font-size: 12px;
     color: #fff;
 }
 .li-two  {
+    
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -945,7 +1117,8 @@ font-size: 12px;
     display: inline-block;
     border: 1px solid #eee;
     background: #fff;
-    padding: 0 13px;
+    padding: 4px 15px;
+    margin-right: 5px;
     margin-bottom: 8px;
     color: #222;
     font-size: 12px;
@@ -1113,12 +1286,31 @@ justify-content: end;
     display: flex;
     flex-direction: row;
 }
+.sml h4{
+    
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #222;
+    }
 
-
+    .comment-butt {
+        
+    color:white;
+    border:none;
+    border-radius: 5px;
+    align-self: flex-end;
+    width: 200px;
+padding: 15px 30px;
+text-decoration: none;
+background-color: #17a2b8;
+    }
 
 @media (max-width:992px)
 
 { 
+    
     .row-column {
         flex-direction: column;
     }
